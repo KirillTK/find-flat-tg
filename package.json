@@ -1,0 +1,34 @@
+{
+  "name": "find-flat-tg",
+  "version": "1.0.0",
+  "description": "Find flat from olx and otodom",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./lib/index.ts",
+    "run:watch": "ts-node-dev ./lib/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillTK/find-flat-tg.git"
+  },
+  "author": "KirillTK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillTK/find-flat-tg/issues"
+  },
+  "homepage": "https://github.com/KirillTK/find-flat-tg#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cron": "^2.4.3",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "@types/node": "^20.6.0",
+    "ts-node-dev": "^2.0.0",
+    "tslib": "^2.6.2"
+  }
+}
