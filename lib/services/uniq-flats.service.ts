@@ -14,4 +14,8 @@ export class UniqFlatsService {
       return true;
     });
   }
+
+  reset() {
+    this.uniq = new Set();
+  }
 }
