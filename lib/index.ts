@@ -21,8 +21,8 @@ const sendFlats = async () => {
   }
 };
 
-const job = new CronJob(
-  '*/5 * * * *',
+new CronJob(
+  '*/5 * * * *', // every 5 minutes
   sendFlats,
   null,
   true

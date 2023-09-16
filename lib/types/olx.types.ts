@@ -4,7 +4,7 @@ interface OlxPhoto {
 }
 
 interface Location {
-  name: string;
+  name?: string;
 }
 
 interface ApartmentParams {

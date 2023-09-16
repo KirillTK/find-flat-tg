@@ -31,7 +31,7 @@ export class OlxFlatService {
   }
 
   private getFullLocation(location: OlxApartment['location']) {
-    return `${location.city.name || ''} ${location.district.name || ''}`.trim();
+    return `${location.city?.name || ''} ${location.district?.name || ''}`.trim();
   }
 
   private parseList(list: OlxApartment[]): Apartment[] {
