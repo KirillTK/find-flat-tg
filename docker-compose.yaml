@@ -18,3 +18,5 @@ services:
       - mongodb
     environment:
       MONGO_URL: mongodb://mongo:27017/flats
+volumes:
+  mongodata:
